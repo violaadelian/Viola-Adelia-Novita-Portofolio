@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="profil.jpeg" alt="Profile Picture" class="hero-profile">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Saya adalah mahasiswa Teknik Informatika yang memiliki minat pada bidang UI/UX dan design web. Saya senang membuat tampilan website yang sederhana, menarik dan mudah digunakan oleh pengguna.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan pada bidang UI/UX. Saya tertarik mempelajari bagaimana sebuah tampilan website dapat dibuat menarik sekaligus mudah digunakan. Saat ini saya sedang belajar membuat design website menggunakan tools seperti Figma serta mengimplementasikannya menggunakan HTML, CSS dan teknologi web lainnya. </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">HTML</div>
+                <div class="skill">Figma</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>KeepUp</h3>
+                    <p>KeepUp adalah aplikasi berbasis web yang digunakan untuk memcatat dan mengatur aktivitas atau informasi penting. Aplikasi ini membantu pengguna menyimpan catatan, mengingat jadwal, dan mengelola kegiatan sehari-hari dengan terorgaisir dan mudah. Ini adalah tugas semester 3 mata kuliah Mobile Aplikasi.</p>
+
+                    <img src="project-KeepUp.png" alt="KeepUp Project Image">
+
+                    <a href="https://www.figma.com/design/FB69KYKxU9xtELLiyRfQla/Untitled?node-id=0-1&p=f" target="_blank" class="btn">View Project</a>
+                </div>
+
+                <div class="project">
+                    <h3>Dapoer Ummi</h3>
+                    <p>Dapoer Ummi adalah aplikasi berbasis web yang digunakan untuk memesan makanan dan minuman secara onlibe. Melalui website ini, pelanggan dapat melihat daftar menu, melihat detai makanan, dan melakukan pmesanan dengan mudah. Aplikasi ini juga membantu admin dalam mengelola menu dan pesanan secara lebih praktis. Ini adalah tugas semester 3 mata kuliah Rekayasa Perangkat Lunak.</p>
+
+                    <img src="project-DapoerUmmi.png" alt="Dapoer Ummi Project Image">
+
+                    <a href="https://www.figma.com/design/8mbsAKRToFtFzDNbFscR7z/WEB-RESEP-MAKANAN?node-id=0-1&p=f&t=keJLJkEcVGy3Yg9D-0" target="_blank" class="btn">View Project</a>
+
+                </div>
+                
+            </div>
+        </div> 
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
